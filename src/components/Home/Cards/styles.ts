@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  padding: 70px 45px;
+
   background-color: #000;
   border-bottom: 8px solid #222;
-  padding: 70px 45px;
 `;
 
 interface CardProps {
@@ -39,6 +40,7 @@ export const Content = styled.div`
 
   p {
     margin-top: 20px;
+
     font-size: 1.625rem;
     font-weight: 400;
   }

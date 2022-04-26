@@ -13,7 +13,6 @@ export function App() {
       <Routes>
         <Route path="/br" element={<Home />} />
       </Routes>
-
       <GlobalStyles />
     </BrowserRouter>
   );

@@ -5,7 +5,9 @@ export const Container = styled.div`
   background-size: cover;
   background-position: center top 60%;
   background-repeat: no-repeat;
+
   height: 80vh;
+
   border-bottom: 8px solid #222;
 `;
 
@@ -88,8 +90,10 @@ export const SelectContainer = styled.div`
 
 export const Content = styled.div`
   width: 100%;
+
   max-width: 950px;
   margin: 130px auto;
+
   text-align: center;
   color: #fff;
 
@@ -101,54 +105,20 @@ export const Content = styled.div`
   }
 
   h2 {
+    margin: 1rem auto;
+
     font-weight: 400;
     font-size: 1.625rem;
-    margin: 1rem auto;
-  }
-
-  p {
-    margin-top: 2rem;
-    padding-bottom: 20px;
-    font-size: 1.2rem;
   }
 
   span {
+    display: block;
+
     max-width: 710px;
     margin: 10px auto;
+
     text-align: left;
-    display: block;
+
     color: #e79608;
-  }
-`;
-
-export const FormContainer = styled.form`
-  display: flex;
-  justify-content: center;
-
-  input {
-    width: 550px;
-    height: 70px;
-
-    padding: 0 10px;
-    font-size: 16px;
-
-    outline: none;
-  }
-
-  button {
-    background-color: #e50914;
-    border-radius: 3px;
-
-    color: #fff;
-
-    padding: 7px 26px;
-
-    font-size: 1.625rem;
-
-    filter: brightness(0.9);
-
-    :hover {
-      filter: brightness(1);
-    }
   }
 `;

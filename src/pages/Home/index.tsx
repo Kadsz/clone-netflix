@@ -1,6 +1,8 @@
 //Components
-import { Cards } from "../../components/Cards";
-import { Header } from "../../components/Header";
+import { Header } from "../../components/Home/Header";
+import { Cards } from "../../components/Home/Cards";
+import { Modal } from "../../components/Home/Modal";
+import { Footer } from "../../components/Home/Footer";
 
 //Images
 import ImageTv from "/images/cards/tv.png";
@@ -34,6 +36,8 @@ export const Home: React.FC = () => {
         description="Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso."
         image={ImageKids}
       />
+      <Modal />
+      <Footer />
     </>
   );
 };
