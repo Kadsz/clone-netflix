@@ -1,3 +1,5 @@
+//React
+
 //Components
 import { Header } from "../../components/Home/Header";
 import { Cards } from "../../components/Home/Cards";
@@ -9,6 +11,8 @@ import ImageTv from "/images/cards/tv.png";
 import ImageMobile from "/images/cards/mobile.jpg";
 import ImageDevice from "/images/cards/device.png";
 import ImageKids from "/images/cards/kids.png";
+
+//Gsap
 
 export const Home: React.FC = () => {
   return (
